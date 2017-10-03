@@ -2,24 +2,25 @@ import random
 
 # define lvls, questions, answers, lvls, responses, etc.
 
-#QUESTIONS
+#QUESTIONS AND ASSOCIATED ANSER KEYS
 question1 = '''Row, row, row your ___1___. Gently down the ___2___.
 Merrily, merrily, merrily, merrily. ___3___ is but a ___4___.'''
+key1 = ['boat', 'stream', 'life', 'dream']
+
 question2 = '''When I find ___1___ in times of ___2___
 Mother ___3___ comes to me
 Speaking ___4___ of ___5___, let it be'''
+key2 = ['myself', 'trouble', 'Mary', 'words', 'wisdom']
+
 question3 = '''Once upon a midnight ___1___, while I pondered, weak and ___2___,
 Over many a ___3___ and curious volume of forgotten lore -
 While I ___4___, nearly napping, suddenly there came a tapping,
 As of some one gently rapping, rapping at my chamber door.
 "'Tis some ___5___," I muttered, "tapping at my chamber door -
 Only this and nothing more."'''
-questions = [question1, question2, question3]
-
-#ANSWERS
-key1 = ['boat', 'stream', 'life', 'dream']
-key2 = ['myself', 'trouble', 'Mary', 'words', 'wisdom']
 key3 = ['dreary', 'weary', 'quaint', 'nodded', 'visitor']
+
+questions = [question1, question2, question3]
 keys = [key1, key2, key3]
 
 lvls = ["Easy", "Medium", "Hard"]
