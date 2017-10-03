@@ -2,7 +2,7 @@ import random
 
 # define lvls, questions, answers, lvls, responses, etc.
 
-#QUESTIONS AND ASSOCIATED ANSER KEYS
+# QUESTIONS AND ASSOCIATED ANSER KEYS
 question1 = '''Row, row, row your ___1___. Gently down the ___2___.
 Merrily, merrily, merrily, merrily. ___3___ is but a ___4___.'''
 key1 = ['boat', 'stream', 'life', 'dream']
@@ -25,15 +25,15 @@ keys = [key1, key2, key3]
 
 lvls = ["Easy", "Medium", "Hard"]
 lvl_desc = ["Nice and easy.",
-              "This should be good for now.",
-              "This should be interesting!"]
+            "This should be good for now.",
+            "This should be interesting!"]
 
-#INCORRECT RESPONSE
+# INCORRECT RESPONSE
 incorrect_resp = ["Try again.",
                   "That may be right in some other universe.",
                   "Fail less."]
 
-#INTRO
+# INTRO
 intro = '''Choose your difficulty lvl:
 1 - Easy
 2 - Medium
