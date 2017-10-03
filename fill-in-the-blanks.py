@@ -55,7 +55,7 @@ def format(text):
     input: string
     ouput: x printed lines of '.' followed by the string'''
     rows = 2
-    for i in range(0, rows):
+    for row in range(0, rows):
         print "\n"
     print text
 
@@ -121,7 +121,7 @@ def start():
             call play()'''
     print "Shall we play a game?"
     rows = 2
-    for i in range(0, rows):
+    for row in range(0, rows):
         print "\n"
     print intro
     ilvl = select_lvl()-1
